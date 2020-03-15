@@ -1,0 +1,13 @@
+.boardWrapper {
+  display: grid;
+  grid-template-columns: repeat(50, 10px);
+}
+.col{
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.active {
+  background-color: black;
+}
